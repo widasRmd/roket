@@ -1,0 +1,23 @@
+.section-track {
+  padding-bottom: 80px;
+
+  .track-shipment {
+    padding-block: 80px;
+    .input-group {
+      .input-group-text {
+        padding-inline: 15px;
+        padding-block: 15px;
+        background-color: white;
+      }
+    }
+  }
+}
+
+// Mobile Device
+@media (max-width: 575.98px) {
+  .section-track {
+    .track-shipment {
+      padding-block: 0;
+    }
+  }
+}

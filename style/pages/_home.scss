@@ -1,0 +1,129 @@
+.section-ship-now {
+  min-height: 80vh;
+
+  .ship-now {
+    padding-block: 20vh;
+
+    .title-ship-now {
+      margin-right: 20px;
+
+      h1 {
+        font-size: 40px;
+        font-weight: 700;
+
+        span {
+          color: $primary;
+        }
+      }
+    }
+
+    h4 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 20px;
+
+      span {
+        color: $primary;
+      }
+    }
+
+    .menu-ship-now {
+      .btn {
+        padding-inline: 8%;
+        padding-block: 40px;
+        border-radius: 12px;
+        margin-bottom: 12px;
+        color: white;
+      }
+    }
+  }
+}
+
+.section-solution {
+  padding-bottom: 80px;
+  background-color: #fef7ef;
+
+  .product-solution {
+    padding-block: 5vh;
+    .title-section {
+      font-size: 35px;
+      font-weight: 700;
+
+      span {
+        color: $primary;
+      }
+
+      hr {
+        width: 70%;
+        border: 1px solid $primary;
+        border-radius: 20px;
+        opacity: 1;
+        margin-inline: auto;
+        margin-block: 8px;
+      }
+    }
+
+    .btn-tabs {
+      text-align: start;
+      margin-bottom: 20px;
+      padding-block: 15px;
+      font-size: 17px;
+      width: auto;
+    }
+  }
+}
+
+// Mobile Device
+@media (max-width: 575.98px) {
+  .section-ship-now {
+    padding-bottom: 80px;
+    overflow: hidden;
+
+    .ship-now {
+      width: 90%;
+      padding-block: 0;
+
+      .title-ship-now {
+        margin-right: 0;
+
+        h1 {
+          font-size: 45px;
+          line-height: 1;
+          margin-bottom: 12px;
+        }
+      }
+
+      h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .menu-ship-now {
+        .btn {
+          width: 100%;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+
+  .section-solution {
+    .product-solution {
+      justify-content: center;
+      padding-block: 0;
+
+      .title-section {
+        font-size: 28px;
+      }
+
+      .btn-tabs {
+        text-align: center;
+        margin-inline: auto;
+        margin-bottom: 5px;
+        padding-block: 12px;
+        font-size: 14px;
+        border-radius: 6px !important;
+      }
+    }
+  }
+}

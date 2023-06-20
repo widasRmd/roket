@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Home | ROKET</title>
+
+  <link href="style/main.css" rel="stylesheet" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="pt-4 fixed-top">
+    <div class="container header">
+      <nav class="navbar navbar-expand-lg bg-white rounded-pill py-2 p-md-3 px-2">
+        <div class="container-fluid">
+          <a class="navbar-brand pt-0 ps-3" href="/">
+            <img src="/assets/logo-roket.jpg" style="height: 20px;" alt="Roket">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <a href="/">
+                <img src="/assets/logo-roket.jpg" style="height: 20px;" alt="Roket">
+              </a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">About Roket</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/track.html">Track</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Product & Solution
+                    <i class='bx bxs-chevron-down bx-tada-hover bx-fw'></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">International Freight</a></li>
+                    <li><a class="dropdown-item" href="#">Domestic Freight</a></li>
+                    <li><a class="dropdown-item" href="#">Logistics Solution</a></li>
+                    <li><a class="dropdown-item" href="#">Custom Clearance Broker</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shipping Rates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact.html">Contact us</a>
+                </li>
+              </ul>
+              <div class="d-flex">
+                <button type="button" class="btn btn-sm btn-primary text-light me-2 rounded-pill px-4 pt-1 pb-2">
+                  Login
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero-banner bg-dark vh-100 d-flex">
+    <div class="container align-self-center">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form class="track-number-form">
+            <div class="mb-3 text-center">
+              <label for="trackNumber" class="form-label">Track your shipment</label>
+              <div class="px-3 px-md-5 row">
+                <div class="track-number d-flex bg-white">
+                  <input type="email" class="form-control" id="trackNumber" aria-describedby="trackNumber">
+                  <button type="submit" class="btn btn-primary">Track</button>
+                </div>
+              </div>
+              <div id="trackNumber" class="form-text text-center mt-3 px-3">
+                It is a long established fact that a reader will be distracted.
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <i class='bx bx-chevrons-down bx-lg bx-fade-down d-none d-md-block'></i>
+    </div>
+  </section>
+
+  <!-- Ship Now -->
+  <section class="section-wrapper section-ship-now">
+    <div class="container ship-now">
+      <div class="row justify-content-center">
+        <div class="title-ship-now col-md-auto justify-content-center align-self-end">
+          <h1>SHIP
+            <br>
+            <span>NOW</span>
+          </h1>
+        </div>
+        <div class="col-md-8">
+          <h4>
+            Find your <span>Roket</span>
+            <br>Faster, Easier, Powerful
+          </h4>
+          <div class="col menu-ship-now">
+            <a href="" class="btn btn-success">Domestics Rate</a>
+            <a href="" class="btn btn-danger">International Rates</a>
+            <a href="" class="btn btn-primary">Get Quotes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product & Solution -->
+  <section class="section-wrapper section-solution">
+    <div class="container product-solution">
+      <div class="row justify-content-center">
+        <div class="col-auto mb-5">
+          <div class="title-section">
+            Product <span>& Solution</span>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 tab-solution">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link btn-tabs active" id="v-pills-home-tab" data-bs-toggle="pill"
+              data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+              International Freight
+            </button>
+            <button class="nav-link btn-tabs" id="v-pills-profile-tab" data-bs-toggle="pill"
+              data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+              aria-selected="false">
+              Domestic Freight
+            </button>
+            <button class="nav-link btn-tabs" id="v-pills-disabled-tab" data-bs-toggle="pill"
+              data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled"
+              aria-selected="false">
+              Logistics Solution
+            </button>
+            <button class="nav-link btn-tabs" id="v-pills-messages-tab" data-bs-toggle="pill"
+              data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+              aria-selected="false">
+              Custom Clearance Broker
+            </button>
+          </div>
+        </div>
+        <div class="col-md-8 text-center">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"
+              tabindex="0">
+              <img src="/assets/images/we-proud.png" class="img-fluid mt-5" style="width: 70%; max-width: 300px;"
+                alt="">
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+              tabindex="0">
+              <img src="/assets/images/we-proud.png" class="img-fluid mt-5" style="width: 70%; max-width: 300px;"
+                alt="">
+            </div>
+            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab"
+              tabindex="0">
+              <img src="/assets/images/we-proud.png" class="img-fluid mt-5" style="width: 70%; max-width: 300px;"
+                alt="">
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
+              tabindex="0">
+              <img src="/assets/images/we-proud.png" class="img-fluid mt-5" style="width: 70%; max-width: 300px;"
+                alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <section class="footer-top">
+      <div class="container">
+        <div class="row footer-top-row">
+          <div class="col col-md-4">
+            <div class="row mb-3">
+              <a href="/">
+                <img src="/assets/logo-roket-white.png" class="logo-footer" alt="" />
+              </a>
+              <h5>PT. Roket Delapan Delapan</h5>
+              <p>
+                Ruko Peta Selatan Indah Blok B No. 7
+                <br>Kalideres, Jakarta Barat
+              </p>
+              <div class="footer-link">
+                <i class='bx bxs-phone-call me-2'>
+                </i>
+                <p>(021) 22524629</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="socmed">
+                <img src="/assets/socmed (1).png" alt="" />
+                <img src="/assets/socmed (2).png" alt="" />
+                <img src="/assets/socmed (3).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-8 mt-5 mt-md-0">
+            <div class="row">
+              <div class="col-6 col-md-4">
+                <h6>Product & Solution</h6>
+                <ul>
+                  <li>
+                    <a href="#">International Freight</a>
+                  </li>
+                  <li>
+                    <a href="#">Domestic Freight</a>
+                  </li>
+                  <li>
+                    <a href="#">Logistics Solution</a>
+                  </li>
+                  <li>
+                    <a href="#">Custom Clearance Broker</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h6>Explore</h6>
+                <ul>
+                  <li>
+                    <a href="#">Shipping Rates</a>
+                  </li>
+                  <li>
+                    <a href="#">Join with us</a>
+                  </li>
+                  <li>
+                    <a href="#">Career</a>
+                  </li>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-4 mt-5 mt-md-0">
+                <h6>Information</h6>
+                <ul>
+                  <li>
+                    <a href="/contact.html">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQs</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms & Condition</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>
+              Copyright © 2023 Roket. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </footer>
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.slim.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://fred.stlouisfed.org/graph/js/embed.js" type="text/javascript"></script>
+</body>
+
+</html>

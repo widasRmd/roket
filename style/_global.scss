@@ -1,0 +1,32 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.section-wrapper {
+  padding-top: 80px;
+}
+
+.title-section {
+  font-size: 35px;
+  font-weight: 700;
+
+  span {
+    color: $primary;
+  }
+
+  hr {
+    width: 70%;
+    border: 1px solid $primary;
+    border-radius: 20px;
+    opacity: 1;
+    margin-inline: auto;
+    margin-block: 8px;
+  }
+}
+
+// Mobile Device
+@media (max-width: 575.98px) {
+  .title-section {
+    font-size: 28px;
+  }
+}

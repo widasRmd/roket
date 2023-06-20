@@ -1,0 +1,26 @@
+.hero-banner-contact {
+  background-image: url("/assets/images/bg_hero_roket.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-map {
+  padding-bottom: 80px;
+  .contact-map {
+    iframe {
+      border-radius: 12px;
+    }
+  }
+}
+
+// Mobile Device
+@media (max-width: 575.98px) {
+  .section-map {
+    .contact-map {
+      iframe {
+        border-radius: 12px;
+        width: 335px;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.hero-banner {
+  background-image: url("/assets/images/bg_hero_roket.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .bx {
+    color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+  }
+
+  .title-hero {
+    font-size: calc(45px + (70 - 45) * ((100vw - 850px) / (1600 - 850)));
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 400;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .text-hero {
+    font-size: 22px;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-banner {
+    height: 600px !important;
+
+    .title-hero {
+      font-size: 35px;
+      line-height: 1.4;
+    }
+
+    .text-hero {
+      font-size: 17px;
+    }
+  }
+
+  .hero-banner:focus {
+    box-shadow: none !important;
+  }
+}
