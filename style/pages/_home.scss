@@ -28,12 +28,26 @@
     }
 
     .menu-ship-now {
-      .btn {
-        padding-inline: 8%;
-        padding-block: 40px;
+      a.btn {
+        width: 95%;
+        height: 100%;
         border-radius: 12px;
-        margin-bottom: 12px;
-        color: white;
+        padding-block: 40px;
+        border: none;
+
+        p {
+          margin-bottom: 0;
+        }
+
+        .ic-ship-now {
+          width: 40px;
+          margin-bottom: 5px;
+        }
+      }
+
+      a.btn:hover {
+        background-color: $primary;
+        border: none;
       }
     }
   }
@@ -98,9 +112,9 @@
       }
 
       .menu-ship-now {
-        .btn {
+        a.btn {
           width: 100%;
-          margin-bottom: 8px;
+          height: 95%;
         }
       }
     }

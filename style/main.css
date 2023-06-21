@@ -12091,12 +12091,23 @@ body {
 .section-ship-now .ship-now h4 span, .section-ship-now .ship-now .h4 span {
   color: #fc961d;
 }
-.section-ship-now .ship-now .menu-ship-now .btn {
-  padding-inline: 8%;
-  padding-block: 40px;
+.section-ship-now .ship-now .menu-ship-now a.btn {
+  width: 95%;
+  height: 100%;
   border-radius: 12px;
-  margin-bottom: 12px;
-  color: white;
+  padding-block: 40px;
+  border: none;
+}
+.section-ship-now .ship-now .menu-ship-now a.btn p {
+  margin-bottom: 0;
+}
+.section-ship-now .ship-now .menu-ship-now a.btn .ic-ship-now {
+  width: 40px;
+  margin-bottom: 5px;
+}
+.section-ship-now .ship-now .menu-ship-now a.btn:hover {
+  background-color: #fc961d;
+  border: none;
 }
 
 .section-solution {
@@ -12149,9 +12160,9 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
   }
-  .section-ship-now .ship-now .menu-ship-now .btn {
+  .section-ship-now .ship-now .menu-ship-now a.btn {
     width: 100%;
-    margin-bottom: 8px;
+    height: 95%;
   }
   .section-solution .product-solution {
     justify-content: center;
