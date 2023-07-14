@@ -12063,6 +12063,10 @@ body {
 }
 
 @media (max-width: 575.98px) {
+  .section-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .title-section {
     font-size: 28px;
   }
@@ -12180,12 +12184,6 @@ body {
     border-radius: 6px !important;
   }
 }
-.hero-banner-contact {
-  background-image: url("/assets/images/bg_hero_roket.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .section-map {
   padding-bottom: 80px;
 }
@@ -12196,7 +12194,7 @@ body {
 @media (max-width: 575.98px) {
   .section-map .contact-map iframe {
     border-radius: 12px;
-    width: 335px;
+    width: 300px;
   }
 }
 .section-track {
@@ -12217,7 +12215,6 @@ body {
   }
 }
 .hero-banner {
-  background-image: url("/assets/images/bg_hero_roket.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -12226,7 +12223,7 @@ body {
   color: white;
   position: absolute;
   left: 50%;
-  bottom: 30px;
+  bottom: 50px;
 }
 .hero-banner .title-hero {
   font-size: calc(45px + 25 * (100vw - 850px) / 750);
