@@ -1,3 +1,6 @@
+footer {
+  overflow-y: scroll;
+}
 .footer-top {
   padding-block: 80px;
   background-color: #3d170e;
@@ -91,7 +94,8 @@
 // Mobile Device
 @media (max-width: 575.98px) {
   .footer-top {
-    padding-block: 40px;
+    padding-top: 120px;
+    padding-bottom: 40px;
     text-align: center;
 
     .footer-top-row {

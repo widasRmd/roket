@@ -1,5 +1,14 @@
+.section-contact {
+  padding-bottom: 80px;
+  .contact {
+    padding-block: 50px;
+  }
+}
+
 .section-map {
   padding-bottom: 80px;
+  display: flex;
+  align-items: center;
   .contact-map {
     iframe {
       border-radius: 12px;
@@ -9,8 +18,16 @@
 
 // Mobile Device
 @media (max-width: 575.98px) {
+  .section-contact {
+    .contact {
+      padding-block: 40px;
+    }
+  }
+
   .section-map {
     .contact-map {
+      padding-block: 40px;
+
       iframe {
         border-radius: 12px;
         width: 300px;

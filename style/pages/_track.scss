@@ -2,7 +2,7 @@
   padding-bottom: 80px;
 
   .track-shipment {
-    padding-block: 80px;
+    padding-block: 50px;
     .input-group {
       .input-group-text {
         padding-inline: 15px;
@@ -16,8 +16,9 @@
 // Mobile Device
 @media (max-width: 575.98px) {
   .section-track {
+    padding-bottom: 10px;
     .track-shipment {
-      padding-block: 0;
+      padding-block: 40px;
     }
   }
 }

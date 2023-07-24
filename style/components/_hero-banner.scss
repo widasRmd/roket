@@ -2,6 +2,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  height: 100vh;
 
   .bx {
     color: white;
@@ -32,8 +33,6 @@
 
 @media (max-width: 575.98px) {
   .hero-banner {
-    height: 600px !important;
-
     .title-hero {
       font-size: 35px;
       line-height: 1.4;

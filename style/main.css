@@ -12042,8 +12042,21 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+.snap-container {
+  scroll-snap-type: y mandatory;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.snap-child {
+  scroll-snap-align: start;
+  transition: scroll 2s ease-out;
+}
+
 .section-wrapper {
-  padding-top: 80px;
+  padding-top: 100px;
+  min-height: 100vh;
 }
 
 .title-section {
@@ -12119,7 +12132,7 @@ body {
   background-color: #fef7ef;
 }
 .section-solution .product-solution {
-  padding-block: 5vh;
+  padding-block: 50px;
 }
 .section-solution .product-solution .title-section {
   font-size: 35px;
@@ -12145,12 +12158,12 @@ body {
 
 @media (max-width: 575.98px) {
   .section-ship-now {
-    padding-bottom: 80px;
-    overflow: hidden;
+    padding-bottom: 10px;
+    overflow: scroll;
   }
   .section-ship-now .ship-now {
     width: 90%;
-    padding-block: 0;
+    padding-block: 40px;
   }
   .section-ship-now .ship-now .title-ship-now {
     margin-right: 0;
@@ -12168,9 +12181,13 @@ body {
     width: 100%;
     height: 95%;
   }
+  .section-solution {
+    padding-bottom: 10px;
+    overflow: scroll;
+  }
   .section-solution .product-solution {
     justify-content: center;
-    padding-block: 0;
+    padding-block: 40px;
   }
   .section-solution .product-solution .title-section {
     font-size: 28px;
@@ -12184,14 +12201,29 @@ body {
     border-radius: 6px !important;
   }
 }
+.section-contact {
+  padding-bottom: 80px;
+}
+.section-contact .contact {
+  padding-block: 50px;
+}
+
 .section-map {
   padding-bottom: 80px;
+  display: flex;
+  align-items: center;
 }
 .section-map .contact-map iframe {
   border-radius: 12px;
 }
 
 @media (max-width: 575.98px) {
+  .section-contact .contact {
+    padding-block: 40px;
+  }
+  .section-map .contact-map {
+    padding-block: 40px;
+  }
   .section-map .contact-map iframe {
     border-radius: 12px;
     width: 300px;
@@ -12201,7 +12233,7 @@ body {
   padding-bottom: 80px;
 }
 .section-track .track-shipment {
-  padding-block: 80px;
+  padding-block: 50px;
 }
 .section-track .track-shipment .input-group .input-group-text {
   padding-inline: 15px;
@@ -12210,14 +12242,18 @@ body {
 }
 
 @media (max-width: 575.98px) {
+  .section-track {
+    padding-bottom: 10px;
+  }
   .section-track .track-shipment {
-    padding-block: 0;
+    padding-block: 40px;
   }
 }
 .hero-banner {
   background-size: cover;
   background-position: center;
   position: relative;
+  height: 100vh;
 }
 .hero-banner .bx {
   color: white;
@@ -12243,9 +12279,6 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  .hero-banner {
-    height: 600px !important;
-  }
   .hero-banner .title-hero {
     font-size: 35px;
     line-height: 1.4;
@@ -12306,6 +12339,10 @@ header .navbar .nav-item .active {
 }
 .track-number-form .form-text {
   color: white;
+}
+
+footer {
+  overflow-y: scroll;
 }
 
 .footer-top {
@@ -12384,7 +12421,8 @@ header .navbar .nav-item .active {
 
 @media (max-width: 575.98px) {
   .footer-top {
-    padding-block: 40px;
+    padding-top: 120px;
+    padding-bottom: 40px;
     text-align: center;
   }
   .footer-top .footer-top-row {

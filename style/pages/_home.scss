@@ -58,7 +58,7 @@
   background-color: #fef7ef;
 
   .product-solution {
-    padding-block: 5vh;
+    padding-block: 50px;
     .title-section {
       font-size: 35px;
       font-weight: 700;
@@ -89,12 +89,12 @@
 // Mobile Device
 @media (max-width: 575.98px) {
   .section-ship-now {
-    padding-bottom: 80px;
-    overflow: hidden;
+    padding-bottom: 10px;
+    overflow: scroll;
 
     .ship-now {
       width: 90%;
-      padding-block: 0;
+      padding-block: 40px;
 
       .title-ship-now {
         margin-right: 0;
@@ -121,9 +121,12 @@
   }
 
   .section-solution {
+    padding-bottom: 10px;
+    overflow: scroll;
+
     .product-solution {
       justify-content: center;
-      padding-block: 0;
+      padding-block: 40px;
 
       .title-section {
         font-size: 28px;
