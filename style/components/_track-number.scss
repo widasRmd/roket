@@ -1,37 +1,70 @@
-.track-number-form {
-  label {
-    color: white;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 2;
+.input-offer {
+  max-width: 980px;
+  margin-top: 24px;
+
+  .input-group {
+    background-color: #fff;
+    padding: 0;
+    border-radius: 12px;
+    overflow: hidden;
+
+    .input-column {
+      padding: 14px 14px 20px 20px;
+    }
+
+    .btn {
+      color: #fff;
+      font-size: 15px;
+    }
   }
 
-  .track-number {
-    padding: 8px;
-    border-radius: 8px;
-  }
-
-  input {
+  .form-control {
     border: none;
-    margin-right: 20px;
+    padding: 0;
   }
 
-  input:focus {
+  .form-control::placeholder {
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+  }
+
+  .form-control:focus {
     box-shadow: none;
   }
 
-  button {
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-    padding-inline: 20px;
+  label {
+    font-size: 11px;
+    margin-bottom: 4px;
   }
 
-  button:hover {
-    color: white;
-  }
+  .tab-input {
+    .nav-link {
+      background-color: #fff;
+      color: #6b6b6b;
+      padding: 8px 24px;
+      font-size: 14px;
+      margin-right: 6px;
 
-  .form-text {
-    color: white;
+      svg {
+        fill: #6b6b6b;
+      }
+    }
+
+    .nav-link:hover {
+      color: $primary;
+
+      svg {
+        fill: $primary;
+      }
+    }
+
+    .nav-link.active {
+      background-color: $primary;
+      color: #fff;
+
+      svg {
+        fill: #fff;
+      }
+    }
   }
 }
